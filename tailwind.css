@@ -1,0 +1,52 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+body {
+  @apply bg-pink-100;
+}
+
+#navbar {
+  @apply bg-white shadow-md;
+}
+
+.nav-link {
+  @apply text-gray-700 hover:text-pink-500;
+}
+
+.header {
+  @apply text-2xl font-bold text-pink-500;
+}
+
+.main-content {
+  @apply p-5;
+}
+
+.section {
+  @apply my-5;
+}
+
+#home {
+  @apply bg-cover bg-center;
+  background-image: url('images/background.jpg');
+}
+
+#services {
+  @apply bg-cover bg-center;
+  background-image: url('images/services.jpg');
+}
+
+#about {
+  @apply bg-cover bg-center;
+  background-image: url('images/about.jpg');
+}
+
+#contact {
+  @apply bg-cover bg-center;
+  background-image: url('images/contact.jpg');
+}
+
+.footer {
+  @apply bg-white shadow-md mt-5 p-5;
+}

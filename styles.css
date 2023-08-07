@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Header */
+.header {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+    color: #333;
+}
+
+/* Sections */
+.section {
+    margin: 20px 0;
+}
+
+#home {
+    background-image: url('images/logo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#services {
+    background-image: url('images/services.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#about {
+    background-image: url('images/about.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#contact {
+    background-image: url('images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Footer */
+.footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    text-align: center;
+}
